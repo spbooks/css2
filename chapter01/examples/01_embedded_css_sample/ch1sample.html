@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Basic 3-Column Sample Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <style type="text/css">
+      body {
+        background-color: teal;
+        margin: 20px;
+        padding: 0;
+        font-size: 1.1em;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin: 0 0 15px 0;
+        padding: 0;
+        color: #888;
+      }
+      h2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin: 0 0 5px 0;
+        padding: 0;
+        font-size: 1.1em;
+      }
+      p {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        line-height: 1.1em;
+        margin: 0 0 16px 0;
+        padding: 0;
+      }
+      .content>p {
+        margin: 0;
+      }
+      .content>p+p {
+        text-indent: 30px;
+      }
+      a {
+        color: teal;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      }
+      a:link {
+        color: teal;
+      }
+      a:visited {
+        color: teal;
+      }
+      a:hover {
+        background-color: #bbb;
+      }
+      /* All the content boxes belong to the content class. */
+      .content {
+        position: relative;
+        width: auto;
+        min-width: 120px;
+        margin: 0 210px 20px 170px;
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px;
+        z-index: 3;
+      }
+      #navleft {
+        position: absolute;
+        width: 128px;
+        top: 20px;
+        left: 20px;
+        font-size: 0.9em;
+        border: 1px dashed black;
+        background-color: white;
+        padding: 10px;
+        z-index: 2;
+      }
+      #navleft ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      #navright {
+        position: absolute;
+        width: 168px;
+        top: 20px;
+        right: 20px;
+        border: 1px dashed black;
+        background-color: #eee;
+        padding: 10px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Getting the Lay of the Land</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p>Excepteur sint occaecat?</p>
+    </div>
+    <div class="content">
+      <h2>CSS in Context</h2>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut  fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem  sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+    <div class="content">
+      <h2>Keep Adding Content</h2>
+      <p>You can see that as you keep adding content to this page, it adds nicely boxed and centered material down the center of the page.</p>
+    </div>
+    <div id="navleft">
+      <h2>Some Links</h2>
+      <ul>
+        <li><a href="http://www.rachelandrew.co.uk/" title="Rachel Andrew's personal site">Rachel Andrew</a></li>
+        <li><a href="http://www.sitepoint.com/" title="SitePoint Home Base">SitePoint Home</a></li>
+        <li><a href="http://www.sitepoint.com/forums" title="SitePoint Discussion Forums">SitePoint Forums</a></li>
+        <li><a href="http://www.mozilla.org/firefox" title="Firefox at The Mozilla Foundation">Firefox</a></li>
+        <li><a href="http://www.microsoft.com/ie" title="Internet Explorer at Microsoft's Site">Internet Explorer</a>
+        <li><a href="http://www.opera.com/" title="Opera Home Page">Opera</a></li>
+        <li><a href="http://www.apple.com/safari" title="Safari on Apple's Web Site">Safari</a></li>
+      </ul>
+    </div>
+    <div id="navright">
+      <h2>Why CSS is Better</h2>
+      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores  et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+    </div>
+  </body>
+</html>

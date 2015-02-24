@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Warning</title>
+    <style type="text/css">
+      p.warning {
+        color: red;
+        background-color: white;
+      }
+      .warning {
+        color: yellow;
+        background-color: red;
+      }
+      p {
+        color: white;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="warning">This is a warning paragraph.</p>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Positioning</title>
+    <style type="text/css">
+      .big {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: large;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="position: absolute; left: 125px; top: 75px;" class="big">
+      This is the first line of text being positioned.
+      <div style="position: absolute; left: 25px; top: 30px;">
+        This is <span style="position: relative; left: 10px; top: 30px;">an example of</span> a second line.
+     </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.caution {
+  text-align: center;
+  font-weight: bold;
+  background-color: gray;
+  color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 1px solid red;
+}
+.danger {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 3px solid red;
+}

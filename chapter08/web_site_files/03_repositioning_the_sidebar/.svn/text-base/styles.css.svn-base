@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050845;
+  color: white;
+  background-image: url(img/bg.jpg);
+  background-repeat: repeat-x;
+  font: small Arial, Helvetica, Verdana, sans-serif;
+}
+#wrapper {
+  background-color: #fdf8f2;
+  color: black;
+  margin: 30px 40px 30px 40px;
+  padding: 10px;
+}
+#header-bottom {
+  border-top: 1px solid #b9d2e3;
+  border-bottom: 1px solid #b9d2e3;
+  height: 1%;
+}
+#header-bottom ul {
+  margin: 0;
+  padding: 0;
+  padding: 0 30px 0 0;
+  text-align: right;
+}
+#header-bottom li {
+  display: inline;
+  background-color: #fdf8f2;
+  color: #050845;
+}
+#header-bottom a:link, #header-bottom a:visited {
+  text-decoration: none;
+  background-color: #fdf8f2;
+  color: #050845;
+}
+#tagline {
+  font-weight: bold;
+  background-color: #fdf8f2;
+  color: #050845;
+  font-style: italic;
+  margin: 0;
+  padding: 0 0 0 20px;
+  width: 300px;
+  float: left;
+}
+#ball {
+  position: absolute;
+  top: 110px;
+  right: 55px;
+}
+#main {
+  position: relative;
+  top:0;
+  left:  0;
+  width: 100%;
+  margin-top: 10px;
+}
+#content {
+  margin: 0 0 0 240px;
+  border: 1px solid #b9d2e3;
+  background-color: white;
+  color: black;
+}
+#mainfeature {
+  background-image: url(img/mainimg.jpg);
+  background-repeat: no-repeat;
+  background-color: #112236;
+  color: white;
+  padding: 2em 2em 1em 200px;
+  height: 1%;
+}
+#mainfeature h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 140%;
+}
+#mainfeature p {
+  font-size: 110%;
+}
+#mainfeature p.more {
+  margin-top: 0;
+  text-align: right;
+}
+#mainfeature p.more a:link, #mainfeature p.more a:visited {
+  color: white;
+  background-image: url(img/more-bullet.gif);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 14px;
+}
+#content .inner {
+  margin: 10px 20px 10px 40px;
+}
+#content .inner h2 {
+  color: #245185;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #b9d2e3;
+  font-size: 110%;
+}
+#content .inner ul.features {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#content .inner h3 {
+  font-size: 130%;
+}
+#content .inner h3 a:link, #content .inner h3 a:visited {
+  color: #245185;
+}
+#content .inner p {
+  color: #666666;
+  font-size: 90%;
+}
+#content .inner .features li img {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+#content .inner p.author {
+  font-weight:  bold;
+}
+#content .inner p.more{
+  margin-top: 0;
+  text-align: right;
+}
+#content .inner p.more a:link, #content .inner p.more a:visited {
+  color: black;
+  background-image: url(img/more-bullet.gif);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 14px;
+  font-size: 90%;
+  color: #1e4c82;
+}
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 220px;
+  background-color: #256290;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#sidebar h3 {
+  font-size: 110%;
+  background-image: url(img/sidebar-header-bg.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0.2em 0 0.2em 10px;
+  font-weight: normal;
+}
+#sidebar .inner {
+  padding: 10px;
+}
+#sidebar ul {
+  list-style-image: url(img/more-bullet.gif);
+  margin-left: 0;
+  padding-left: 20px;
+}
+#sidebar p, #sidebar li {
+  font-size: 90%;
+  line-height: 1.4em;
+}
+#sidebar ul a:link, #sidebar ul a:visited {
+  color: white;
+}
+#sidebar .date {
+  font-weight: bold;
+}
+#searchform .text {
+  width: 196px;
+  border: 1px solid #45bac0;
+}
+#searchform .searchbutton {
+  text-align: right;
+  margin-top: 4px;
+}
+#searchform .btn {
+  border: 1px solid #45bac0;
+  background-color: #256290;
+  color: white;
+}
+#sidebar .motm-image {
+  float: right;
+  margin: 0 30px 0 20px;
+}
+#sidebar p.more {
+  clear: right;
+  margin: 0 30px 0 0;
+  text-align: right;
+}
+#sidebar p.more a:link, #sidebar p.more a:visited {
+  color: white;
+  background-image: url(img/more-bullet.gif);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 14px;
+}

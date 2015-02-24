@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Footbag Freaks</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  </head>
+  <body>
+    <div id="header">
+      <p>The Home of the Hack</p>
+      <ul>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Sitemap</a></li>
+      </ul>
+    </div> <!-- header -->
+    <div id="content">
+      <h2>Simon Says</h2>
+      <p>Simon Mackie tells us how a change of shoes has given him new moves and a new outlook as the new season approaches.</p>
+      <p><a href="">Read More</a></p>
+      <h2>Recent Features</h2>
+      <ul>
+        <li>
+          <h3>Head for the Hills: Is Altitude Training the Answer?</h3>
+          <p>Lachlan 'Super Toe' Donald</p>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent hendrerit iaculis arcu.</p>
+          <p><a href="">Full Story</a></p>
+        </li>
+        <li>
+          <h3>Hack up the Place: Freestylin' Super Tips</h3>
+          <p>Jules 'Pony King' Szemere</p>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent hendrerit iaculis arcu.</p>
+          <p><a href="">Full Story</a></p>
+        </li>
+        <li>
+          <h3>The Complete Black Hat Hacker's Survival Guide</h3>
+          <p>Mark 'Steel Tip' Harbottle</p>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent hendrerit iaculis arcu.</p>
+          <p><a href="">Full Story</a></p>
+        </li>
+        <li>
+          <h3>Five Tricks You Didn't Even Know You Knew</h3>
+          <p>Simon 'Mack Daddy' Mackie</p>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent hendrerit iaculis arcu.</p>
+          <p><a href="">Full Story</a></p>
+        </li>
+      </ul>
+    </div> <!-- content -->
+    <div id="sidebar">
+      <h3>Site Search</h3>
+      <form method="post" action="" id="searchform">
+        <div>
+          <label for="keywords">Keywords</label>:
+          <input type="text" name="keywords" id="keywords" />
+        </div>
+        <div>
+          <input type="submit" name="btnSearch" id="btnSearch" />
+        </div> 
+      </form>
+      <h3>Coming Events</h3>
+      <ul>
+        <li>10 Apr 06 -<br /><a href="">Seattle Zone Qualifier</a></li>
+        <li>13 Apr 06 -<br /><a href="">World Cup - Round 8</a></li>
+        <li>21 Apr 06 -<br /><a href="">FootbagOOM 05 - NY</a></li>
+        <li>28 Apr 06 -<br /><a href="">WFPA AGM - Hong Kong</a></li>
+        <li>3 May 06 -<br /><a href="">World Cup - Round 9</a></li>
+      </ul>
+      <h3>Move of the Month</h3>
+      <h4>The Outer Stall</h4>
+      <p>Eti bibendum mauris nec nulla. Nullam cursus ullamcorper quam. Sed cursus vestibulum leo.</p>
+      <p><a href="">more</a></p>
+    </div> <!-- sidebar -->
+  </body>
+</html>

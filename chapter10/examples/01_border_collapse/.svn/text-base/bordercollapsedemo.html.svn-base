@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Untitled Document</title>
+    <style type="text/css">
+      table {
+        float: left;
+        padding-right: 1em
+      }
+      caption {
+        font-family: sans-serif;
+        padding-bottom: 0.3em;
+      }
+      td {
+        border: 4px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>Normal table</caption>
+      <tbody>
+        <tr>
+          <td>Row 1, Col A</td>
+          <td>Row 1, Col B</td>
+        </tr>
+        <tr>
+          <td>Row 2, Col A</td>
+          <td>Row 2, Col B</td>
+        </tr>
+      </tbody>
+    </table>
+    <table cellspacing="0">
+      <caption>Cell spacing set to zero</caption>
+      <tbody>
+        <tr>
+          <td>Row 1, Col A</td>
+          <td>Row 1, Col B</td>
+        </tr>
+        <tr>
+          <td>Row 2, Col A</td>
+          <td>Row 2, Col B</td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="border-collapse: collapse;" cellspacing="0">
+      <caption>Borders collapsed</caption>
+      <tbody>
+        <tr>
+          <td>Row 1, Col A</td>
+          <td>Row 1, Col B</td>
+        </tr>
+        <tr>
+          <td>Row 2, Col A</td>
+          <td>Row 2, Col B</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>

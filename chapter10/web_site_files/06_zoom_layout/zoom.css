@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: white;
+  font:large Arial, Helvetica, Verdana, sans-serif;
+}
+#wrapper {
+  padding: 10px;
+}
+#header {
+  background-color: white;
+}
+#tagline {
+  font-weight: bold;
+  color: #050845;
+  font-style: italic;
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0 20px;
+}
+#extras {
+  border: 2px solid white;
+  padding: 0.2em;
+}
+#content .inner {
+  margin: 30px;
+}
+#worldcuplogo {
+  float: right;
+  margin: 0 0 20px 40px;
+  width: 111px;
+}
+#content h1 {
+  font-size: 120%;
+  color: #ccc;
+}
+#content h2 {
+  font-size: 260%;
+  font-weight: normal;
+}
+#content p {
+  line-height: 1.6em;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+#dateline {
+  font-size: 160%;
+  font-weight: normal;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+.intro {
+  font-weight: bold;
+}
+table.schedule {
+  clear: right;
+  width: 100%;
+  line-height: 1.4em;
+  border-collapse: collapse;
+  border: 4px solid #ccc;
+  color: white;
+  background: #333;
+}
+table.schedule caption {
+  margin: 0;
+  padding: 0;
+  color: white;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+}
+table.schedule thead tr {
+  color: white;
+  background: #333;
+}
+table.schedule thead tr th {
+  padding: 0.4em 0.6em 0.4em 0.6em;
+  border: 4px solid #ccc;
+}
+table.schedule tbody tr {
+  border: 4px solid #ccc;
+}
+table.schedule tbody th {
+  padding: 0.6em;
+  border: 4px solid #ccc;
+}
+table.schedule tbody td {
+  background: #333;
+  padding-left: 0.6em;
+  border-bottom: 4px solid #ccc;
+}
+table.schedule tbody tr.odd {
+  background: #999;
+}
+table.schedule tbody tr.odd td {
+  background: #666666;
+  color: white;
+}
+table.schedule a:link {
+  font-weight: bold;
+  color: #fc0;
+  text-decoration: underline;
+}
+table.schedule a:visited {
+  font-weight: bold;
+  color: #fc0;
+}
+table.schedule a:hover {
+  font-weight: bold;
+  color: #fc0;
+  text-decoration: none;
+}
